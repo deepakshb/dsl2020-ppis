@@ -1,4 +1,4 @@
-name: DSL2020-PPIs
+name: dsl2020-ppis
 channels: 
    - defaults
 dependencies:
@@ -11,7 +11,9 @@ dependencies:
    - seaborn
    - tqdm
    - pip>=20.0
-pip:
-   - kaggle
+   - networkx
+   
+
+
    
 

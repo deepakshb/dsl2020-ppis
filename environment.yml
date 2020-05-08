@@ -1,0 +1,17 @@
+name: DSL2020-PPIs
+channels: 
+   - defaults
+dependencies:
+   - python>=3.7
+   - jupyter
+   - matplotlib 
+   - pandas
+   - numpy
+   - scikit-learn
+   - seaborn
+   - tqdm
+   - pip>=20.0
+pip:
+   - kaggle
+   
+

@@ -12,6 +12,7 @@ dependencies:
    - tqdm
    - pip>=20.0
    - networkx
+   - urllib
    
 
 

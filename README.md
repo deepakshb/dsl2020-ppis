@@ -4,11 +4,11 @@ Protein-protein interactions (PPIs) are essential to almost every process in a c
 
 As a part of our Data Science Lab Project, we successfully implemented GCN (Graph Convolution Network) for Link Prediction in Pytorch for the Yeast dataset[2]. Our model achieved around 91% average precision score. This project is completed by a team of following 4 members each responsible for a designated phase.
 
-Phase 1: Problem Definition - Rihab Ziani
-Phase 2: Data Preprocessing - Abderrazzak El Khayari
-Phase 3: Implementation - Deepak Rastogi
-Phase 4: Empirical Evaluations and Discussion - Vishvapalsinhji Ramsinh Parmar
+Phase 1: Problem Definition - Rihab Ziani  
+Phase 2: Data Preprocessing - Abderrazzak El Khayari  
+Phase 3: Implementation - Deepak Rastogi  
+Phase 4: Empirical Evaluations and Discussion - Vishvapalsinhji Ramsinh Parmar  
 
 
-[1] T. N. Kipf and M. Welling, “Semi-supervised classification with graph convolutional networks,” arXiv preprint arXiv:1609.02907, 2016.
+[1] T. N. Kipf and M. Welling, “Semi-supervised classification with graph convolutional networks,” arXiv preprint arXiv:1609.02907, 2016.  
 [2] http://snap.stanford.edu/deepnetbio-ismb/ipynb/yeast.edgelist

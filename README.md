@@ -1,23 +1,10 @@
 # DSL2020-PPIs
 
-the aim of this project : use machine learning to create and improve a model that predict a link between two proteins using GCNs .
+Protein-protein interactions (PPIs) are essential to almost every process in a cell. Exploring PPIs is crucial for understanding cell physiology in normal and disease states. The knowledge of PPIs can be used for drug development and to assign roles (i.e., protein functions) to uncharacterized proteins. In this project, we investigate the utility of Graph Convolutional Networks (GCNs) [9] for the problem of predicting protein-protein interactions (PPIs). The totality of PPIs is presented in the form of an undirected network, we thus formulate the problem as a link prediction task by GCN.
 
-## steps to run this repository localy.
-- 1: git clone https://git.fim.uni-passau.de/padas/20ss-data-science-lab/team11/dsl2020-ppis.git
-- 2: conda env create -f environment.yml
-- 3: conda activate dsl2020-ppis
-## add new packages.
-- 1: open environment.yml file
-example>
-name: dsl2020-ppis
-channels: 
-   - defaults
-dependencies:
-   - python>=3.7
-   - jupyter
-   - matplotlib 
-   - pandas
-   - NewPackage
+As a part of our Data Science Lab Project, we successfully implemented GCN (Graph Convolution Network) for Link Prediction in Pytorch for the Yeast dataset. Our model achieved around 91% average precision score. This project is completed by a team of following 4 members each responsible for a designated phase.
 
-- 2: conda env update
- 
+Phase 1: Problem Definition - Rihab Ziani
+Phase 2: Data Preprocessing - Abderrazzak El Khayari
+Phase 3: Implementation - Deepak Rastogi
+Phase 4: Empirical Evaluations and Discussion - Vishvapalsinhji Ramsinh Parmar
